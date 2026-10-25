@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        // Carregar l'única vista de l'aplicació
+        // Load the only view of the example
         Parent root = FXMLLoader.load(getClass().getResource("/assets/layout.fxml"));
         Scene scene = new Scene(root);
 
